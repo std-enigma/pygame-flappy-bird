@@ -1,9 +1,9 @@
 import pygame
 
-from src.settings import *
 from src.asset import AssetManager
 from src.display import DisplayManager
 from src.scene import SceneManager
+from src.settings import *
 
 
 class Game:
