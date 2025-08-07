@@ -33,7 +33,7 @@ class AssetManager:
         if "icon" not in self.images:
             # Look for 'favicon.ico' in the assets directory
             path = os.path.join(self.assets_dir, "favicon.ico")
-            icon = pygame.image.load(path).convert_alpha()
+            icon = pygame.image.load(path)
             self.images["icon"] = icon
         return self.images["icon"]
 
