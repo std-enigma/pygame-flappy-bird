@@ -1,0 +1,5 @@
+ASSETS_DIR = "assets"
+GAME_TITLE = "Flappy Bird"
+GAME_WIDTH = 384
+GAME_HEIGHT = 512
+GAME_FPS = 60
